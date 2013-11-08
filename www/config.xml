@@ -17,7 +17,7 @@
         Engee SRL
     </author>
 	
-	<gap:platform name="android" />
+	<!-- gap:platform name="android" /-->
 	<icon src="icon.png" />
 
 	<access origin="http://127.0.0.1*"/>
