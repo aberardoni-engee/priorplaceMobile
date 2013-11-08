@@ -11,13 +11,24 @@
 </head>
 <body>
 	<div data-role="page" id="home" data-title="Priorplace" >
+		<div data-position="left" data-role="panel" id="mainMenuPanel">
+			<ul data-role="listview">
+				<li data-role="list-divider">Evento actual</li>
+					<li><a href="#home">Evento Actual</a></li>
+				<li data-role="list-divider">Mis eventos</li>
+					<li><a href="#home">Evento Actual</a></li>
+					<li><a href="#home">Carla Y Roberto</a></li>
+					<li><a href="#home">Pablo Y Roberto</a></li>
+			</ul>
+		</div>
 		<div data-role="header" data-position="fixed" >
+			<a href="#mainMenuPanel" data-inline="true" data-iconpos="notext" data-role="button" data-icon="bars"></a>
 			<h3>PriorPlace Movile</h3>
 		</div>
 		<div data-role="content">
 			<p>Page content goes here.</p>
 			<a href="#settings" data-transition="none">Configuracion<a/>
-		</div><!-- /content -->
+		</div>
 	</div>
 	
 	<div data-role="page" id="settings" data-title="Configuracion" >
@@ -28,7 +39,7 @@
 			<p>Page content goes here.</p>
 			<a href="#home" data-rel="back"  data-inline="true" data-role="button" data-icon="delete">Atras</a>
 			<a data-inline="true" data-role="button" data-theme="b" data-icon="check">Guardar</a>
-		</div><!-- /content -->
+		</div>
 	</div>
 	
 </body>
