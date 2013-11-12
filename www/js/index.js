@@ -4,3 +4,8 @@ $( document ).bind( "mobileinit", function() {
     $.mobile.allowCrossDomainPages = true;
 	$.support.cors = true;
 });
+
+function exitFromApp()
+ {
+	navigator.app.exitApp();
+ }

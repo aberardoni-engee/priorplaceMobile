@@ -9,6 +9,8 @@
 	<script src="js/jquery-1.9.1.min.js"></script>
 	<script src="js/jquery.mobile-1.3.2.js"></script>
 	<script src="js/inex.js"></script>
+	<script src="phonegap.js"></script>
+	
 </head>
 <body>
 	<div data-role="page" id="home" data-title="Priorplace" >
@@ -18,12 +20,12 @@
 					<li><a href="#headerContainer" data-rel="close">Muro</a></li>
 					<li><a href="#eventData" data-transition="none">Datos del Evento</a></li>
 				<li data-role="list-divider">Mis eventos</li>
-					<li><a href="#settings" data-transition="none">Julio y Carla</a></li>
-					<li><a href="#settings" data-transition="none">Carla Y Roberto</a></li>
-					<li><a href="#settings" data-transition="none">Pablo Y Roberto</a></li>
+					<li><a href="#headerContainer" data-rel="close">Julio y Carla</a></li>
+					<li><a href="#headerContainer" data-rel="close">Carla Y Roberto</a></li>
+					<li><a href="#headerContainer" data-rel="close">Pablo Y Roberto</a></li>
 				<li data-role="list-divider">Prior Place</li>
 					<li><a href="#settings" data-transition="none">Mi Pefril</a></li>
-					<li data-icon="delete"><a  href="#settings" data-transition="none">Salir</a></li>				
+					<li data-icon="delete" ><a onclick="exitFromApp()" href="#" data-transition="none">Salir</a></li>				
 			</ul>
 		</div>
 		<div id="headerContainer" data-role="header" data-position="fixed" >
@@ -63,15 +65,15 @@
 		<div data-position="left" data-role="panel" id="mainMenuPanel">
 			<ul data-role="listview">
 				<li data-role="list-divider">Julio y Carla</li>
-					<li><a href="#headerContainer" data-rel="close">Muro</a></li>
+					<li><a href="#home" data-transition="none">Muro</a></li>
 					<li><a href="#eventData" data-transition="none">Datos del Evento</a></li>
 				<li data-role="list-divider">Mis eventos</li>
-					<li><a href="#settings" data-transition="none">Julio y Carla</a></li>
-					<li><a href="#settings" data-transition="none">Carla Y Roberto</a></li>
-					<li><a href="#settings" data-transition="none">Pablo Y Roberto</a></li>
+					<li><a href="#home" data-transition="none">Julio y Carla</a></li>
+					<li><a href="#home" data-transition="none">Carla Y Roberto</a></li>
+					<li><a href="#home" data-transition="none">Pablo Y Roberto</a></li>
 				<li data-role="list-divider">Prior Place</li>
 					<li><a href="#settings" data-transition="none">Mi Pefril</a></li>
-					<li data-icon="delete"><a  href="#settings" data-transition="none">Salir</a></li>				
+					<li data-icon="delete"><a onclick="exitFromApp()" href="#" data-transition="none">Salir</a></li>				
 			</ul>
 		</div>
 		<div id="headerContainer" data-role="header" data-position="fixed" >
