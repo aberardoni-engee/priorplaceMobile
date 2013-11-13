@@ -3,6 +3,8 @@
 	background-color: #fff;
 	padding: 10px;
 	border: 1px black solid;
+	box-shadow: 2px 2px 2px #888888;
+	border-radius: 5px;
 }
 
 .postBody {
