@@ -16,6 +16,9 @@
 <body>
 	<div data-role="page" id="home" data-title="Priorplace" >
 		<div data-position="left" data-role="panel" id="mainMenuPanel">
+			<div style="background-color: #146092; width:100%; margin: -15px; padding: 15px;" >
+				<img data-inline="true"  width="100%" src="logo_azul.png" />
+			</div>
 			<ul data-role="listview">
 				<li data-role="list-divider">Julio y Carla</li>
 					<li><a href="#headerContainer" data-rel="close">Muro</a></li>
@@ -26,7 +29,6 @@
 					<li><a href="#headerContainer" data-rel="close">Pablo Y Roberto</a></li>
 				<li data-role="list-divider">Prior Place</li>
 					<li><a href="#settings" data-transition="none">Mi Pefril</a></li>
-					<li data-icon="delete" ><a onclick="exitFromApp()" href="#" data-transition="none">Salir</a></li>				
 			</ul>
 		</div>
 		<div id="headerContainer" data-role="header" >
@@ -42,65 +44,76 @@
 					<div class="ui-block-b"></div>
 					<div class="ui-block-c"></div>
 					<div class="ui-block-d">
-					<a  data-inline="true" data-role="button" data-theme="b" data-icon="check">Capturar</a>
-					<a  data-inline="true" data-role="button" data-theme="b" data-icon="check">Compartir</a>
+						<a  data-mini="true" data-inline="true" data-role="button" data-theme="b" data-icon="grid">Capturar</a>
+						<a  data-mini="true" data-inline="true" data-role="button" data-theme="b" data-icon="check">Compartir</a>
 					</div>
 				</fieldset>
 				
 			</div>
 			<div class="postBox">
-				<img data-inline="true" style="float:left;" src="perfil.jpg"/>
+				<img data-inline="true" style="float:left;" src="carolina.jpg"/>
 				<p data-inline="true" style="font-size: 12px; float:left; margin-left:10px; color: #006090; font-weight: bold;" >Carolina Roca dijo:</p>
 				<div style="clear: both;"></div>
 				<div class="postBody">
-					<p>Che pablo, Estamos juntos esaa !!</p> 
-					<div style="font-size: 12px;" >
-						<a href="#">Me gusta</a>.<a href="#">No Me gusta</a>. <span>Hace 1 hora</span>
+					<p>Che pablo, Estamos juntos esaa !!</p>
+					<div style="font-size: 12px;border: 1px solid #DDD;padding: 10px;background-color: #EFEFEF;text-decoration: none;border-radius: 4px;">
+						<a href="#" class="ui-link" style=" border-right: 1px solid #DDD; padding: 10px; text-decoration: none;">Megusta</a>
+						<a href="#" class="ui-link" style=" border-right: 1px solid #DDD; padding: 10px;text-decoration: none;">No Me gusta</a>
+						<a href="#" class="ui-link" style=" /* border-right: 1px solid #DDD; */ padding: 10px;text-decoration: none;">Comentar</a>
 					</div>
 				</div>
 			</div>
+
 			<div class="postBox">
-				<img data-inline="true" style="float:left;" src="perfil.jpg"/>
+				<img data-inline="true" style="float:left;" src="carolina.jpg"/>
 				<p data-inline="true" style="font-size: 12px; float:left; margin-left:10px; color: #006090; font-weight: bold;" >Carolina Roca dijo:</p>
 				<div style="clear: both;"></div>
 				<div class="postBody">
 					<p>Carolina Roca creó el album dsa</p>
 					<p><img  width="100%" src="166-300x300.jpg" /></p>
-					<div style="font-size: 12px;" >
-						<a href="#">Me gusta</a>.<a href="#">No Me gusta</a>. <span>Hace 5 horas</span>
-					</div>				
+					<div style="font-size: 12px;border: 1px solid #DDD;padding: 10px;background-color: #EFEFEF;text-decoration: none;border-radius: 4px;">
+						<a href="#" class="ui-link" style=" border-right: 1px solid #DDD; padding: 10px; text-decoration: none;">Megusta</a>
+						<a href="#" class="ui-link" style=" border-right: 1px solid #DDD; padding: 10px;text-decoration: none;">No Me gusta</a>
+						<a href="#" class="ui-link" style=" /* border-right: 1px solid #DDD; */ padding: 10px;text-decoration: none;">Comentar</a>
+					</div>
 				</div>
 			</div>
 			<div class="postBox">
-				<img data-inline="true" style="float:left;" src="perfil.jpg"/>
+				<img data-inline="true" style="float:left;" src="pablo.jpg"/>
 				<p data-inline="true" style="font-size: 12px; float:left; margin-left:10px; color: #006090; font-weight: bold;" >Pablo Larra dijo:</p>
 				<div style="clear: both;"></div>
 				<div class="postBody">
 					<p>Asigname una buena mesa o hay tabla</p>
-					<div style="font-size: 12px;" >
-						<a href="#">Me gusta</a>.<a href="#">No Me gusta</a>. <span>Hace 10 horas</span>
+					<div style="font-size: 12px;border: 1px solid #DDD;padding: 10px;background-color: #EFEFEF;text-decoration: none;border-radius: 4px;">
+						<a href="#" class="ui-link" style=" border-right: 1px solid #DDD; padding: 10px; text-decoration: none;">Megusta</a>
+						<a href="#" class="ui-link" style=" border-right: 1px solid #DDD; padding: 10px;text-decoration: none;">No Me gusta</a>
+						<a href="#" class="ui-link" style=" /* border-right: 1px solid #DDD; */ padding: 10px;text-decoration: none;">Comentar</a>
 					</div>
 				</div>
 			</div>
 			<div class="postBox">
-				<img data-inline="true" style="float:left;" src="perfil.jpg"/>
+				<img data-inline="true" style="float:left;" src="pablo.jpg"/>
 				<p data-inline="true" style="font-size: 12px; float:left; margin-left:10px; color: #006090; font-weight: bold;" >Pablo Larra dijo:</p>
 				<div style="clear: both;"></div>
 				<div class="postBody">
 					<p>Que ganas tengo de ir</p>
-					<div style="font-size: 12px;" >
-						<a href="#">Me gusta</a>.<a href="#">No Me gusta</a>. <span>Hace 18 horas</span>
+					<div style="font-size: 12px;border: 1px solid #DDD;padding: 10px;background-color: #EFEFEF;text-decoration: none;border-radius: 4px;">
+						<a href="#" class="ui-link" style=" border-right: 1px solid #DDD; padding: 10px; text-decoration: none;">Megusta</a>
+						<a href="#" class="ui-link" style=" border-right: 1px solid #DDD; padding: 10px;text-decoration: none;">No Me gusta</a>
+						<a href="#" class="ui-link" style=" /* border-right: 1px solid #DDD; */ padding: 10px;text-decoration: none;">Comentar</a>
 					</div>
 				</div>
 			</div>
 			<div class="postBox">
-				<img data-inline="true" style="float:left;" src="perfil.jpg"/>
+				<img data-inline="true" style="float:left;" src="pablo.jpg"/>
 				<p data-inline="true" style="font-size: 12px; float:left; margin-left:10px; color: #006090; font-weight: bold;" >Pablo Larra dijo:</p>
 				<div style="clear: both;"></div>
 				<div class="postBody">
 					<p>Pablo Larrá ya confirmó su asistencia.</p>
-					<div style="font-size: 12px;" >
-						<a href="#">Me gusta</a>.<a href="#">No Me gusta</a>. <span>Hace 25 horas</span>
+					<div style="font-size: 12px;border: 1px solid #DDD;padding: 10px;background-color: #EFEFEF;text-decoration: none;border-radius: 4px;">
+						<a href="#" class="ui-link" style=" border-right: 1px solid #DDD; padding: 10px; text-decoration: none;">Megusta</a>
+						<a href="#" class="ui-link" style=" border-right: 1px solid #DDD; padding: 10px;text-decoration: none;">No Me gusta</a>
+						<a href="#" class="ui-link" style=" /* border-right: 1px solid #DDD; */ padding: 10px;text-decoration: none;">Comentar</a>
 					</div>
 				</div>
 			</div>
@@ -132,6 +145,9 @@
 			<iframe rel="external" src="mapaIglesia.html" width="480" height="320" seamless></iframe>
 		</div>
 		<div data-position="left" data-role="panel" id="mainMenuPanel">
+			<div style="background-color: #146092; width:100%; margin: -15px; padding: 15px;" >
+				<img data-inline="true"  width="100%" src="logo_azul.png" />
+			</div>
 			<ul data-role="listview">
 				<li data-role="list-divider">Julio y Carla</li>
 					<li><a href="#home" data-transition="none">Muro</a></li>
@@ -142,7 +158,6 @@
 					<li><a href="#home" data-transition="none">Pablo Y Roberto</a></li>
 				<li data-role="list-divider">Prior Place</li>
 					<li><a href="#settings" data-transition="none">Mi Pefril</a></li>
-					<li data-icon="delete"><a onclick="exitFromApp()" href="#" data-transition="none">Salir</a></li>				
 			</ul>
 		</div>
 		<div id="headerContainer" data-role="header" >
@@ -151,6 +166,7 @@
 		</div>
 		<div data-role="content">
 			<ul data-role="listview">
+			<img width="100%" src="casamiento.jpg" />
 				<li data-role="list-divider">Invitados</li>
 					<li>
 						<p><span><strong>Solteros: </strong></span><span>8</span></p>
