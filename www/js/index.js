@@ -4,8 +4,16 @@ $( document ).bind( "mobileinit", function() {
     $.mobile.allowCrossDomainPages = true;
 	$.support.cors = true;
 });
-
-function exitFromApp()
+ 
+ function capturePhoto()
  {
-	navigator.app.exitApp();
+	navigator.device.capture.captureImage();
  }
+ 
+function onLoad(){
+  document.addEventListener("deviceready", onDeviceReady, true);
+}
+
+function onDeviceReady(){
+	navigator.notification.alert("PhoneGap is working!!");
+}
