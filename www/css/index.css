@@ -3,7 +3,7 @@
 	background-color: #fff;
 	padding: 10px;
 #	border: 1px black solid;
-	box-shadow: 2px 2px 2px #888888;
+	box-shadow: 1px 1px 1px #888888;
 	border-radius: 5px;
 }
 
@@ -13,3 +13,37 @@
 	margin-bottom: 10px;
 	font-size: 14px;
 }
+
+.ui-icon-thumb-up {
+	background-image: url("images/Hands-Thumb-up-icon.png");
+}
+
+.ui-icon-thumb-down {
+	background-image: url("images/Hands-Thumb-down-icon.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+	.ui-icon-thumb-up {
+		background-image: url("images/Hands-Thumb-up-icon.png");
+		background-size: 18px 18px;
+	}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+	.ui-icon-thumb-down {
+		background-image: url("images/Hands-Thumb-down-icon.png");
+		background-size: 18px 18px;
+	}
+}
+
+.ui-icon-comment {
+	background-image: url("images/comment-icon.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+	.ui-icon-comment {
+		background-image: url("images/comment-icon.png");
+		background-size: 18px 18px;
+	}
+}
+
