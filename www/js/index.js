@@ -10,10 +10,5 @@ $( document ).bind( "mobileinit", function() {
 	navigator.device.capture.captureImage();
  }
  
-function onLoad(){
-  document.addEventListener("deviceready", onDeviceReady, true);
-}
 
-function onDeviceReady(){
-	navigator.notification.alert("PhoneGap is working!!");
-}
+
