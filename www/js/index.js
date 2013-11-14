@@ -10,5 +10,12 @@ $( document ).bind( "mobileinit", function() {
 	navigator.device.capture.captureImage();
  }
  
+function init() {
+  document.addEventListener("deviceready", onDeviceReady, false);
 
+}
+ 
+function onDeviceReady() {
+  navigator.splashscreen.hide();
 
+}
