@@ -10,8 +10,11 @@
 .postBody {
 	margin-top: 10px;
 	margin-left: 10px;
-	margin-bottom: 10px;
 	font-size: 14px;
+}
+
+.margin-left {
+margin-left: 20px;
 }
 
 .ui-icon-thumb-up {
