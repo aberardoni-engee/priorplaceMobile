@@ -17,7 +17,7 @@ function onDeviceReady() {
          dataType: 'json',
          data: {action: 'get_older_posts', event_id: 53, start: 5 }, 
          success: function(res) {  
-           alert("asdasd");
+           alert(res.status);
            console.dir(res.status);
          },  
          error: function(e) {  
