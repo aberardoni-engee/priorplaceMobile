@@ -7,8 +7,8 @@ function init() {
 	document.addEventListener("deviceready", onDeviceReady, false);
 }
  
-function onDeviceReady() {
-	$.mobile.allowCrossDomainPages = true;
+ 
+function updateApp() {
 	url = 'http://www.priorplace.com/services/event_actions.php';
 	$.ajax({
          type: 'POST',
@@ -26,5 +26,10 @@ function onDeviceReady() {
          complete: function(data) {  
            console.log(e.message);  
          }  
-       });  
+       });
+}
+ 
+function onDeviceReady() {
+	$.mobile.allowCrossDomainPages = true;
+	setInterval(updateApp(), 120000);
 }
