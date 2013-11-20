@@ -18,18 +18,18 @@ function updateApp() {
          data: {action: 'get_older_posts', event_id: 53, start: 5 }, 
          success: function(res) {  
            alert(res.status);
-           console.dir(res.status);
+           //console.dir(res.status);
          },  
          error: function(e) {  
-           console.log(e.message);  
+           alert("jodido error");
          },  
          complete: function(data) {  
-           console.log(e.message);  
+           //console.log(e.message);  
          }  
        });
 }
  
 function onDeviceReady() {
 	$.mobile.allowCrossDomainPages = true;
-	setInterval(updateApp(), 30000);
+	setInterval(updateApp(), 15000);
 }
