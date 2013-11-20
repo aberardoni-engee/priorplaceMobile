@@ -31,5 +31,5 @@ function updateApp() {
  
 function onDeviceReady() {
 	$.mobile.allowCrossDomainPages = true;
-	setInterval(updateApp(), 120000);
+	setInterval(updateApp(), 30000);
 }
