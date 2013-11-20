@@ -10,13 +10,13 @@ function init() {
  
 function updateApp() {
 	url = 'http://www.priorplace.com/services/event_actions.php';
-	$.ajax({
+	/*$.ajax({
          type: 'POST',
          url: url,
          contentType: "application/json",
          dataType: 'json',
          data: {action: 'get_older_posts', event_id: 53, start: 5 }, 
-         success: function(res) {  
+         success: function(res) {
            alert(res.status);
            //console.dir(res.status);
          },  
@@ -26,11 +26,12 @@ function updateApp() {
          complete: function(data) {  
            //console.log(e.message);  
          }  
-       });
+       });*/
+	   alert("asdasd");
 }
  
 function onDeviceReady() {
 	$.mobile.allowCrossDomainPages = true;
 	//setInterval(updateApp, 15000);
-	setInterval(function(){ alert("asdasd");}, 15000);
+	setInterval(updateApp, 15000);
 }
