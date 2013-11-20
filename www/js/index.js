@@ -10,7 +10,7 @@ function init() {
  
 function updateApp() {
 	url = 'http://www.priorplace.com/services/event_actions.php';
-	/*$.ajax({
+	$.ajax({
          type: 'POST',
          url: url,
          contentType: "application/json",
@@ -26,8 +26,7 @@ function updateApp() {
          complete: function(data) {  
            //console.log(e.message);  
          }  
-       });*/
-	   alert("asdasd");
+       });
 }
  
 function onDeviceReady() {
