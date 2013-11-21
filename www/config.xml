@@ -34,6 +34,7 @@
 	<!-- access origin="http://127.0.0.1*"/ -->
 	<access origin="http://maps.google.com/*"/>
 	<access origin="http://priorplace.com/*"/>
+	<access origin="http://engeedev.com/*"/>
 
 	
 </widget>
